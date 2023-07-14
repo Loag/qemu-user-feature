@@ -15,4 +15,4 @@ jobs:
         run: npm install -g @devcontainers/cli
 
       - name: "Test qemu-user install"
-        run: devcontainer features test --skip-scenarios -f qemu-user -i ubuntu .
+        run: devcontainer features test --skip-scenarios -f qemu-system-misc -i ubuntu .
