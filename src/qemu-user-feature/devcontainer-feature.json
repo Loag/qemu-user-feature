@@ -1,0 +1,12 @@
+{
+  "id": "qemu-user",
+  "version": "0.0.1",
+  "name": "qemu-user",
+  "documentationURL": "https://github.com/Loag/qemu-user-feature",
+  "description": "Installs qemu-user with apt",
+  "options": {},
+  "mounts": [],
+  "installsAfter": [
+      "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
